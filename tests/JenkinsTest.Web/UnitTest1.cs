@@ -17,7 +17,6 @@ public class Tests
     [Test]
     public void Test2()
     {
-        Assert.Pass();
         throw new Exception("Some unexpected exception");
     }
 }
