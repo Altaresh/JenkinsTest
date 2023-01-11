@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5F84F62-CA2D-4277-8527-01F1D9F3E965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B852D811-51F1-450C-8E4F-8EF3D894A534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsTest.Web", "src\JenkinsTest.Web\JenkinsTest.Web.csproj", "{09126B4E-8BB6-4798-AF55-137B0A0E9BE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsTest.Web", "tests\JenkinsTest.Web\JenkinsTest.Web.csproj", "{03FD1A23-13CC-4382-8213-DBEA6B4B2E61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09126B4E-8BB6-4798-AF55-137B0A0E9BE0} = {D5F84F62-CA2D-4277-8527-01F1D9F3E965}
+		{03FD1A23-13CC-4382-8213-DBEA6B4B2E61} = {B852D811-51F1-450C-8E4F-8EF3D894A534}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09126B4E-8BB6-4798-AF55-137B0A0E9BE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09126B4E-8BB6-4798-AF55-137B0A0E9BE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09126B4E-8BB6-4798-AF55-137B0A0E9BE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09126B4E-8BB6-4798-AF55-137B0A0E9BE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FD1A23-13CC-4382-8213-DBEA6B4B2E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FD1A23-13CC-4382-8213-DBEA6B4B2E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FD1A23-13CC-4382-8213-DBEA6B4B2E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FD1A23-13CC-4382-8213-DBEA6B4B2E61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
